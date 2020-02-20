@@ -1316,10 +1316,10 @@ k('next_layout', 'kitty_mod+l', 'next_layout', _('Next layout'))
 # }}}
 
 g('shortcuts.fonts')  # {{{
-k('increase_font_size', 'kitty_mod+equal', 'change_font_size all +2.0', _('Increase font size'))
+k('increase_font_size', 'kitty_mod+equal', 'change_font_size all +1.0', _('Increase font size'))
 if is_macos:
     k('increase_font_size', 'cmd+plus', 'change_font_size all +2.0', _('Increase font size'), add_to_docs=False)
-k('decrease_font_size', 'kitty_mod+minus', 'change_font_size all -2.0', _('Decrease font size'))
+k('decrease_font_size', 'kitty_mod+minus', 'change_font_size all -1.0', _('Decrease font size'))
 if is_macos:
     k('decrease_font_size', 'cmd+minus', 'change_font_size all -2.0', _('Decrease font size'), add_to_docs=False)
 k('reset_font_size', 'kitty_mod+backspace', 'change_font_size all 0', _('Reset font size'))
